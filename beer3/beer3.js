@@ -39,7 +39,7 @@ class Beer {
 }
 
 
-fetch(`https://api.punkapi.com/v2/beers/${2}`)
+fetch(`https://api.punkapi.com/v2/beers/${3}`)
     .then((response) => response.json())
     .then((data) => {
         data.map((elem) => {
@@ -55,3 +55,4 @@ fetch(`https://api.punkapi.com/v2/beers/${2}`)
 back.addEventListener('click', () => {
     window.location.href = `../index.html`
 })
+
